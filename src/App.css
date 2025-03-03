@@ -1,0 +1,18 @@
+body {
+  background-color: #111010e6 !important;
+}
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* text-align: center; */
+  }
+
+  .card-text {
+    max-height: 96px;
+    height: 96px;
+    overflow: auto;
+  }
+  .card {
+    height: 100% !important;
+  }
