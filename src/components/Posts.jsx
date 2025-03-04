@@ -35,7 +35,7 @@ export const Post = () => {
     const handleEdit = (post) => setEditPostData(post);
     return (
         <>
-           <section className="container">
+           <section className="container mt-5">
             <div className="form text-center">
                 <Form data={posts} setPost={setPost} editPostData={editPostData} setEditPostData={setEditPostData} />
             </div>
